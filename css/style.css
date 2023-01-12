@@ -1,0 +1,154 @@
+<link rel="stylesheet" href="css/styles.css"/>
+
+/*STYLES DE POLICES*/
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+</style>
+
+            /*PAGE D'ACCUEIL*/
+
+/*MENU POUR TOUTES LES PAGES*/
+
+nav{
+    background-color: black;}
+
+nav{
+    width:     100%;
+    position:absolute;        
+    z-index:   999;
+    background-color:black
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    min-width: 400px; 
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+nav a:hover{
+    color:red;
+}
+
+/*ENTÊTE (STRANGER THINGS) POUR TOUTES LES PAGES*/
+header{
+    display:           flex; 
+	justify-content:   center;
+	align-items:       center;
+    background-color:black
+}
+
+/*CONTENU DE LA PAGE+ PHOTO*/
+figure{
+    text-align: center}
+
+/*TEXTE AU DESSUS ET EN DESSOUS DE LA PHOTO*/
+p {text-align-last: center;
+font-family: 'Anton',sans-serif;
+font-size: 20px;}
+
+p a{text-decoration: none}
+
+p a:hover{color: red}
+
+/*BAS DE LA PAGE*/
+footer {background-color: black;
+    font-family:'Anton', sans-serif;
+    color: white;
+    display:flex; 
+    justify-content:   center;
+    align-items:       center;
+}
+
+footer a {text-decoration: none;
+          color:white
+}
+
+footer a:hover {
+    color:red;
+}
+
+        /*PAGE SAISONS*/
+
+div {display: flex;
+    flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+background-color: lightgray}
+
+/*SAISON 1*/
+.saison1 {
+    background-color: white;
+    text-align-last:left;
+    font-family: 'Anton',sans-serif;
+    font-size: 20px;
+    
+    width: 800px;
+    border: 1px solid black;
+    text-align: justify;
+    padding: 12px;
+    margin: 50px;
+ }
+
+/*paramètres de toutes les photos de la page*/
+.photosaison1 {
+    float: left;
+    vertical-align:middle;
+    max-width: 220px;
+    margin: 10px
+   }
+/*paramètres de chaque entête "saison"*/
+h1{display:           flex; 
+	justify-content:   center;
+	align-items:       center;
+background-color: black}
+
+/*SAISON 2*/
+
+.saison2 {
+    background-color: white;
+    text-align-last:left;
+    font-family: 'Anton',sans-serif;
+    font-size: 20px;
+    
+    width: 800px;
+    height: 350px;
+    border: 1px solid black;
+    text-align: justify;
+    padding: 12px;
+    margin: 50px;
+    justify-content: center;
+ }
+
+/*SAISON 3*/
+.saison3 {
+    background-color: white;
+    text-align-last:left;
+    font-family: 'Anton',sans-serif;
+    font-size: 20px;
+    
+    width: 800px;
+    height: 350px;
+    border: 1px solid black;
+    text-align: justify;
+    padding: 12px;
+    margin: 50px;
+ }
+
+
+        /*PAGE BANDE ANNONCE*/
+
+.video {justify-content: center;
+margin: auto;}
