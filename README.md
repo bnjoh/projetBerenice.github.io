@@ -1,2 +1,2 @@
 # projetBerenice.github.io
-Projet
+Projet Berenice
